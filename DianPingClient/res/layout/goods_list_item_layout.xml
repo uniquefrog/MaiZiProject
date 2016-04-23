@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="6dp" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgGoodsItem"
+        android:src="@drawable/ic_empty_dish"
+        android:layout_weight="2"
+        />
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        >
+       <TextView
+        android:id="@+id/tvShortTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="简短标题内容" 
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tvDetailTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvShortTitle"
+        android:text="详细标题内容"
+        android:textColor="#666666"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/tvCurPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvDetailTitle"
+        android:layout_marginTop="10dp"
+        android:text="120"
+        android:textColor="#ff0000"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/tvOrigPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tvCurPrice"
+        android:layout_below="@id/tvDetailTitle"
+        android:layout_marginTop="10dp"
+        android:text="240"
+        android:textColor="#666666"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/tvGoodsNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1233份"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:padding="5dp"
+        android:textSize="14sp" />
+    
+     </RelativeLayout>
+    
+
+</LinearLayout>

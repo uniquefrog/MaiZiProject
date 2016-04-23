@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">达人点评</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_welcome">达人点评</string>
+    <string name="title_activity_welcome_guide">WelcomeGuideActivity</string>
+    <string name="title_activity_city">CityActivity</string>
+    <string name="title_activity_all_sorts">AllSortsActivity</string>
+    <string name="title_activity_goods_details">GoodsDetailsActivity</string>
+    <string name="title_activity_location">LocationActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+
+</resources>

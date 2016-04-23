@@ -1,0 +1,5 @@
+1、将文件夹“其它库项目”中的libary和SMSSDK分别导入工程中
+2、分别作为库文件添加到Dianping_client项目的库中
+3、添加服务器端Dianping_server项目
+4、编译Dianping_client前先运行服务器端Dianping_server
+ps：以上都是在eclipse中完成

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <servlet-name>CityServlet</servlet-name>
+    <servlet-class>com.dianping.servlet.CityServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GoodsServlet</servlet-name>
+    <servlet-class>com.dianping.servlet.GoodsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>NearbyServlet</servlet-name>
+    <servlet-class>com.dianping.servlet.NearbyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>com.dianping.servlet.UserServlet</servlet-class>
+  </servlet>
+ <servlet>
+    <servlet-name>CategoryServlet</servlet-name>
+    <servlet-class>com.dianping.servlet.CategoryServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>CityServlet</servlet-name>
+    <url-pattern>/api/city</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodsServlet</servlet-name>
+    <url-pattern>/api/goods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NearbyServlet</servlet-name>
+    <url-pattern>/api/nearby</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/api/user</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>CategoryServlet</servlet-name>
+    <url-pattern>/api/category</url-pattern>
+  </servlet-mapping>
+</web-app>
